@@ -5,10 +5,10 @@ from playsound import playsound
 root = Tk()
 root.geometry("350x300") 
 root.configure(bg='ghost white')
-root.title("DataFlair - TEXT TO SPEECH")
+root.title("Anjal - TEXT TO SPEECH")
 
 Label(root, text = "TEXT_TO_SPEECH", font = "arial 20 bold", bg='white smoke').pack()
-Label(text ="DataFlair", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
+Label(text ="Anjal Repo", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
 
 Msg = StringVar()
 Label(root,text ="Enter Text", font = 'arial 15 bold', bg ='white smoke').place(x=20,y=60)
